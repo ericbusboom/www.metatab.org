@@ -1,88 +1,20 @@
-/* Metatab per-site styles — clean docs-style design */
-
+/* www.metatab.org — clean docs style */
 :root {
     --accent: #2c5cc5;
-    --accent-dark: #1f4499;
-    --text: #2d2d2d;
-    --text-light: #666;
-    --bg: #fff;
-    --bg-alt: #f6f8fb;
-    --border: #e3e8ef;
+    --accent-dark: #1a3d8f;
+    --accent-light: #e8f0fe;
     --max-width: 960px;
-    --content-width: 960px;
-    --font-heading: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    --line-height: 1.7;
 }
 
-/* Sans-serif headings */
-h1, h2, h3, h4, h5, h6,
-.site-title,
-.entry-title,
-.site-sidebar .widget h3 {
-    font-family: var(--font-heading);
+.site-content { max-width: 960px; }
+
+.site-title { font-size: 1.45rem; font-weight: 700; }
+.site-header { border-bottom: 2px solid var(--accent); }
+
+.entry-title {
+    font-size: 1.7rem;
+    font-weight: 700;
 }
 
-/* Full-width content, centered, no sidebar */
-.site-content {
-    max-width: var(--content-width);
-    margin: 0 auto;
-    padding: 2rem 1rem;
-    width: 100%;
-}
-
-.content-area {
-    display: block;
-}
-
-.site-main {
-    flex: none;
-    width: 100%;
-}
-
-/* Accent links */
-a { color: var(--accent); }
-a:hover { color: var(--accent-dark); }
-
-/* Headings spacing */
-.entry-content h2 { font-size: 1.4rem; margin: 1.75rem 0 0.75rem; }
-.entry-content h3 { font-size: 1.2rem; margin: 1.5rem 0 0.5rem; }
-.entry-content h4 { font-size: 1.05rem; margin: 1.25rem 0 0.5rem; }
-
-/* Entry titles */
-.entry-title { font-size: 1.6rem; }
-
-/* Code blocks */
-.entry-content pre {
-    background: var(--bg-alt);
-    border: 1px solid var(--border);
-    padding: 1rem;
-    border-radius: 6px;
-    overflow-x: auto;
-}
-.entry-content code {
-    font-family: "SF Mono", Monaco, Consolas, "Courier New", monospace;
-    font-size: 0.88em;
-}
-
-/* Blockquote */
-.entry-content blockquote {
-    border-left: 4px solid var(--accent);
-    padding-left: 1rem;
-    margin: 1rem 0;
-    color: var(--text-light);
-    font-style: italic;
-}
-
-/* Images */
-.entry-content img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-}
-
-/* Header */
-.site-header {
-    border-bottom: 2px solid var(--accent);
-}
-.site-title a:hover { color: var(--accent); }
+.entry-content { font-size: 1.05rem; line-height: 1.8; }
+.entry-content h2 { color: var(--accent-dark); }
