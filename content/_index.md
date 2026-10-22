@@ -3,6 +3,7 @@ title: "Metatab Home"
 date: 2016-09-13T21:36:52+00:00
 draft: false
 author: "eric"
+aliases: ["/metatab-home/"]
 ---
 
 ## Metadata for Mortals
@@ -28,7 +29,7 @@ The Metatab project is just getting started, and we need your help.
   * **Data Producers**. We're looking for government agencies who produce public data to provide input on their data workflows and other requirements.
   * **Data Consumers**. If you use public data and would like better metadata, knowing what you need will help us get the project funded.
 
-For more information, contact: [Eric Busboom](<http://www.metatab.org/contact/>). 
+For more information, contact: [Eric Busboom](</contact/>). 
 
 ## Metadata Shouldn't Be Hard
 
@@ -79,7 +80,7 @@ The Metatab spreadsheet extension — for both Excel and Google Docs — validat
 
 ## Install for Python, Experiment with Javascript or Google
 
-Metatab/Metapack is currently available as a [Python module](<https://github.com/Metatab/metapack>) for working with data packages on the command line. We're also working on a [Javascript module](<https://github.com/CivicKnowledge/metatab-js>) for node and an [Add-On for Google Spreadsheets](<http://www.metatab.org/projects/metatab-add-on/>). 
+Metatab/Metapack is currently available as a [Python module](<https://github.com/Metatab/metapack>) for working with data packages on the command line. We're also working on a [Javascript module](<https://github.com/CivicKnowledge/metatab-js>) for node and an [Add-On for Google Spreadsheets](</projects/metatab-add-on/>). 
 
 ## Join the Project
 

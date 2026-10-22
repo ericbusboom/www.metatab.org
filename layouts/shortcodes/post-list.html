@@ -1,0 +1,6 @@
+{{- /* All blog posts, newest first; replaces the WordPress posts page. */ -}}
+<ul class="post-list">
+{{- range where site.RegularPages "Type" "post" }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <span class="entry-date">{{ .Date.Format "January 2, 2006" }}</span></li>
+{{- end }}
+</ul>

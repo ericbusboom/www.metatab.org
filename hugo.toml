@@ -2,7 +2,16 @@ baseURL = "https://www.metatab.org/"
 languageCode = "en-us"
 title = "Metatab"
 theme = "wp-static"
-paginate = 10
+
+[pagination]
+pagerSize = 10
+
+# Blog posts live in year folders (/2016/10/25/...), so their type would be
+# the year. Give them all type "post" for the post lists.
+[[cascade]]
+type = "post"
+[cascade.target]
+path = "{/20*/**}"
 
 [markup.goldmark.renderer]
 unsafe = true

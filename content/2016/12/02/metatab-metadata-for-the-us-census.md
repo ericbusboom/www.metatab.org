@@ -17,7 +17,7 @@ The decennial US Census and the annual American Community Survey are the most im
 
 The metatab representation has some very important advantages over the metadata included in ACS releases. The most important is that the Metatab files are simultaneously human readable and trivial to use in a program. Metatab can be automatically converted to JSON, and the [JSON version of the Metatab files](<https://github.com/CivicKnowledge/metatab-py/blob/master/examples/census/acs20145.json?raw=true>) can be read and processes in any computing environment. With the [Metatab python module installed](<https://github.com/CivicKnowledge/metatab-py>), the `metatab` program can be used to download all three files, by referencing the top level file, and convert them to JSON: 
 [code]
-    $ metatab -j http://assets.metatab.org/examples/acs20145-metadata.csv
+    $ metatab -j https://library-metatab-org.s3.amazonaws.com/assets.metatab.org/examples/acs20145-metadata.csv
     
 [/code]
 

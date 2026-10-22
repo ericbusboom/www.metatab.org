@@ -5,4 +5,4 @@ draft: false
 author: "eric"
 ---
 
-* [Packaging Data For Reuse](<http://ambry.io/papers/ambry-data-bundles/>). An executive summary of the Ambry Data Bundle format.
+* [Packaging Data For Reuse](/papers/ambry-data-bundles/). An executive summary of the Ambry Data Bundle format.

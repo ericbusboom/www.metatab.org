@@ -3,6 +3,8 @@ title: "Metatab Add-On"
 date: 2016-10-10T22:03:17+00:00
 draft: false
 author: "eric"
+url: "/projects/metatab-add-on/"
+aliases: ["/metatab-home/metatab-add-on/"]
 ---
 
 The Metatab Google Spreadsheets Add-On is a simple extension that loads Metatab templates, adds basic Metatab term validation, and can produce a JSON representation of Metatab metadata. The Add On is not publicly released yet — it is still early stage software — but you can visit the [Chrome Webstore Application ](<https://chrome.google.com/webstore/detail/metatab/hgjehbojelifockaelbagmemdppcdfef>)page directly to get an install link. Clicking on the "Install" button will create a new Spreadsheet with the Add-on installed and present a pop-up help note on how to get started. [box type="info"] Problems? Visit our [Github Issues page](<https://github.com/CivicKnowledge/metatab/issues>) to submit a ticket or ask for help. [/box] [![add-on-menus](/uploads/2/2016/10/Add-On-Menus.png)](</uploads/2/2016/10/Add-On-Menus.png>) Use the single Add On menu to initialize a template or convert to JSON. After installing, you will have a new Spreadsheet with a "Metatab" entry in the "Add-ons" menu. Your options are: 

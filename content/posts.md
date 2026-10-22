@@ -6,3 +6,5 @@ author: "eric"
 ---
 
 
+
+{{< post-list >}}

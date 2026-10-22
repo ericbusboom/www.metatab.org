@@ -1,0 +1,7 @@
+{{/* The theme's pagination partial wraps itself in a "main" block, so it renders nothing. */}}
+{{ with .Paginator }}{{ if gt .TotalPages 1 }}
+<nav class="pagination">
+{{ if .HasPrev }}<a href="{{ .Prev.URL }}" class="prev">← Newer Posts</a>{{ end }}
+{{ if .HasNext }}<a href="{{ .Next.URL }}" class="next">Older Posts →</a>{{ end }}
+</nav>
+{{ end }}{{ end }}

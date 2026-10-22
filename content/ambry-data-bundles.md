@@ -3,6 +3,7 @@ title: "Packaging Data For Reuse"
 date: 2016-07-28T23:17:34+00:00
 draft: false
 author: "eric"
+url: "/papers/ambry-data-bundles/"
 ---
 
 Despite decades of enthusiasm for data, it is still difficult and expensive to distribute data from producers to consumers. Skilled data analysts have access to more data than ever, but the broader range of data users, such as journalists, nonprofits, businesses and consumers still have difficulty finding and using data. Websites such as Census Reporter and DataUSA.io offer a model for how to increase data use, but these types of sites are very expensive to poduce. To solve these problems, we propose a way of packaging data that can make data distribution sites like Census Reporter much easier to create and maintain, and ensure traditional analysts can find the data they need. These method add some cost to the data production process, but will yield enormous benefits to data consumers.  By developing simple standards for how to package data, data producers can make their datasets “machine comprehensible,” permitting the creation of better data access software that can store, publish, and visualize any properly packaged dataset. Better data packaging will result in making data:
